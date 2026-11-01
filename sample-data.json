@@ -1,0 +1,1220 @@
+{
+  "CrmAccount": [
+    {
+      "id": "00000000-0143-0001-0000-000000000001",
+      "name": "Account #1 — Enterprise Primary Record",
+      "email": "ops-team-1@rapider-enterprise.io",
+      "phone": "+1-555-019-2801",
+      "creditLimit": 10,
+      "currentBalance": 10,
+      "riskFlag": "Account riskFlag configuration (1)",
+      "status": "ACTIVE",
+      "paymentTerms": "Account paymentTerms configuration (1)",
+      "accountOwner": "Account accountOwner configuration (1)",
+      "taxId": "00000000-0143-0001-0000-000000000001",
+      "isDeleted": false,
+      "createdAt": "2026-11-01T10:00:00Z",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "accountCode": "CA-2026-0001",
+      "accountType": "Account accountType configuration (1)",
+      "customerTier": "Account customerTier configuration (1)",
+      "supportSlaTier": "Account supportSlaTier configuration (1)",
+      "primaryDomain": "Account primaryDomain configuration (1)",
+      "parentAccountId": "00000000-0143-0001-0000-000000000001",
+      "legalEntityId": "00000000-0143-0001-0000-000000000001",
+      "industry": "Account industry configuration (1)",
+      "revenue": 1250,
+      "website": "Account website configuration (1)",
+      "ownerPersonId": "00000000-0143-0001-0000-000000000001",
+      "description": "Account description configuration (1)",
+      "type": "Account type configuration (1)"
+    },
+    {
+      "id": "00000000-0143-0001-0000-000000000002",
+      "name": "Account #2 — Enterprise Operations Record",
+      "email": "ops-team-2@rapider-enterprise.io",
+      "phone": "+1-555-019-2802",
+      "creditLimit": 20,
+      "currentBalance": 20,
+      "riskFlag": "Account riskFlag configuration (2)",
+      "status": "IN_PROGRESS",
+      "paymentTerms": "Account paymentTerms configuration (2)",
+      "accountOwner": "Account accountOwner configuration (2)",
+      "taxId": "00000000-0143-0001-0000-000000000002",
+      "isDeleted": false,
+      "createdAt": "2026-11-02T10:00:00Z",
+      "updatedAt": "2026-11-02T10:00:00Z",
+      "accountCode": "CA-2026-0002",
+      "accountType": "Account accountType configuration (2)",
+      "customerTier": "Account customerTier configuration (2)",
+      "supportSlaTier": "Account supportSlaTier configuration (2)",
+      "primaryDomain": "Account primaryDomain configuration (2)",
+      "parentAccountId": "00000000-0143-0001-0000-000000000002",
+      "legalEntityId": "00000000-0143-0001-0000-000000000002",
+      "industry": "Account industry configuration (2)",
+      "revenue": 2500,
+      "website": "Account website configuration (2)",
+      "ownerPersonId": "00000000-0143-0001-0000-000000000002",
+      "description": "Account description configuration (2)",
+      "type": "Account type configuration (2)"
+    },
+    {
+      "id": "00000000-0143-0001-0000-000000000003",
+      "name": "Account #3 — Enterprise Compliance Record",
+      "email": "ops-team-3@rapider-enterprise.io",
+      "phone": "+1-555-019-2803",
+      "creditLimit": 30,
+      "currentBalance": 30,
+      "riskFlag": "Account riskFlag configuration (3)",
+      "status": "COMPLETED",
+      "paymentTerms": "Account paymentTerms configuration (3)",
+      "accountOwner": "Account accountOwner configuration (3)",
+      "taxId": "00000000-0143-0001-0000-000000000003",
+      "isDeleted": false,
+      "createdAt": "2026-11-03T10:00:00Z",
+      "updatedAt": "2026-11-03T10:00:00Z",
+      "accountCode": "CA-2026-0003",
+      "accountType": "Account accountType configuration (3)",
+      "customerTier": "Account customerTier configuration (3)",
+      "supportSlaTier": "Account supportSlaTier configuration (3)",
+      "primaryDomain": "Account primaryDomain configuration (3)",
+      "parentAccountId": "00000000-0143-0001-0000-000000000003",
+      "legalEntityId": "00000000-0143-0001-0000-000000000003",
+      "industry": "Account industry configuration (3)",
+      "revenue": 3750,
+      "website": "Account website configuration (3)",
+      "ownerPersonId": "00000000-0143-0001-0000-000000000003",
+      "description": "Account description configuration (3)",
+      "type": "Account type configuration (3)"
+    }
+  ],
+  "CrmContact": [
+    {
+      "id": "00000000-0143-0002-0000-000000000001",
+      "accountId": "00000000-0143-0001-0000-000000000001",
+      "firstName": "Contact #1 — Enterprise Primary Record",
+      "lastName": "Contact #1 — Enterprise Primary Record",
+      "email": "ops-team-1@rapider-enterprise.io",
+      "phone": "+1-555-019-2801",
+      "title": "Contact #1 — Enterprise Primary Record",
+      "fullName": "Contact #1 — Enterprise Primary Record",
+      "phoneE164": "+1-555-019-2801",
+      "jobSeniority": "Contact jobSeniority configuration (1)",
+      "buyingRole": "Contact buyingRole configuration (1)",
+      "portalUserId": "00000000-0143-0001-0000-000000000001",
+      "preferredLanguage": "Contact preferredLanguage configuration (1)",
+      "timezone": "Contact timezone configuration (1)",
+      "marketingConsentStatus": "Contact marketingConsentStatus configuration (1)",
+      "dncStatus": true,
+      "status": "ACTIVE",
+      "name": "Contact #1 — Enterprise Primary Record",
+      "company": "Contact company configuration (1)",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0002-0000-000000000002",
+      "accountId": "00000000-0143-0001-0000-000000000002",
+      "firstName": "Contact #2 — Enterprise Operations Record",
+      "lastName": "Contact #2 — Enterprise Operations Record",
+      "email": "ops-team-2@rapider-enterprise.io",
+      "phone": "+1-555-019-2802",
+      "title": "Contact #2 — Enterprise Operations Record",
+      "fullName": "Contact #2 — Enterprise Operations Record",
+      "phoneE164": "+1-555-019-2802",
+      "jobSeniority": "Contact jobSeniority configuration (2)",
+      "buyingRole": "Contact buyingRole configuration (2)",
+      "portalUserId": "00000000-0143-0001-0000-000000000002",
+      "preferredLanguage": "Contact preferredLanguage configuration (2)",
+      "timezone": "Contact timezone configuration (2)",
+      "marketingConsentStatus": "Contact marketingConsentStatus configuration (2)",
+      "dncStatus": true,
+      "status": "IN_PROGRESS",
+      "name": "Contact #2 — Enterprise Operations Record",
+      "company": "Contact company configuration (2)",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0002-0000-000000000003",
+      "accountId": "00000000-0143-0001-0000-000000000003",
+      "firstName": "Contact #3 — Enterprise Compliance Record",
+      "lastName": "Contact #3 — Enterprise Compliance Record",
+      "email": "ops-team-3@rapider-enterprise.io",
+      "phone": "+1-555-019-2803",
+      "title": "Contact #3 — Enterprise Compliance Record",
+      "fullName": "Contact #3 — Enterprise Compliance Record",
+      "phoneE164": "+1-555-019-2803",
+      "jobSeniority": "Contact jobSeniority configuration (3)",
+      "buyingRole": "Contact buyingRole configuration (3)",
+      "portalUserId": "00000000-0143-0001-0000-000000000003",
+      "preferredLanguage": "Contact preferredLanguage configuration (3)",
+      "timezone": "Contact timezone configuration (3)",
+      "marketingConsentStatus": "Contact marketingConsentStatus configuration (3)",
+      "dncStatus": false,
+      "status": "COMPLETED",
+      "name": "Contact #3 — Enterprise Compliance Record",
+      "company": "Contact company configuration (3)",
+      "isDeleted": false
+    }
+  ],
+  "HrEmployee": [
+    {
+      "id": "00000000-0143-0003-0000-000000000001",
+      "employeeNumber": "HE-2026-0001",
+      "firstName": "Employee #1 — Enterprise Primary Record",
+      "lastName": "Employee #1 — Enterprise Primary Record",
+      "preferredName": "Employee #1 — Enterprise Primary Record",
+      "email": "ops-team-1@rapider-enterprise.io",
+      "personalEmail": "ops-team-1@rapider-enterprise.io",
+      "phone": "+1-555-019-2801",
+      "jobTitle": "Employee #1 — Enterprise Primary Record",
+      "status": "ACTIVE",
+      "workerType": "Employee workerType configuration (1)",
+      "employmentType": "Employee employmentType configuration (1)",
+      "hireDate": "2026-11-01T10:00:00Z",
+      "startDate": "2026-11-01T10:00:00Z",
+      "endDate": "2026-11-01T10:00:00Z",
+      "departmentId": "00000000-0143-0001-0000-000000000001",
+      "managerId": "00000000-0143-0001-0000-000000000001",
+      "positionId": "00000000-0143-0001-0000-000000000001",
+      "jobProfileId": "00000000-0143-0001-0000-000000000001",
+      "locationId": "00000000-0143-0001-0000-000000000001",
+      "legalEntityId": "00000000-0143-0001-0000-000000000001",
+      "weeklyHours": 10,
+      "timeZone": "Employee timeZone configuration (1)",
+      "avatarColor": "Employee avatarColor configuration (1)",
+      "notes": "Employee notes configuration (1)",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0003-0000-000000000002",
+      "employeeNumber": "HE-2026-0002",
+      "firstName": "Employee #2 — Enterprise Operations Record",
+      "lastName": "Employee #2 — Enterprise Operations Record",
+      "preferredName": "Employee #2 — Enterprise Operations Record",
+      "email": "ops-team-2@rapider-enterprise.io",
+      "personalEmail": "ops-team-2@rapider-enterprise.io",
+      "phone": "+1-555-019-2802",
+      "jobTitle": "Employee #2 — Enterprise Operations Record",
+      "status": "IN_PROGRESS",
+      "workerType": "Employee workerType configuration (2)",
+      "employmentType": "Employee employmentType configuration (2)",
+      "hireDate": "2026-11-02T10:00:00Z",
+      "startDate": "2026-11-02T10:00:00Z",
+      "endDate": "2026-11-02T10:00:00Z",
+      "departmentId": "00000000-0143-0001-0000-000000000002",
+      "managerId": "00000000-0143-0001-0000-000000000002",
+      "positionId": "00000000-0143-0001-0000-000000000002",
+      "jobProfileId": "00000000-0143-0001-0000-000000000002",
+      "locationId": "00000000-0143-0001-0000-000000000002",
+      "legalEntityId": "00000000-0143-0001-0000-000000000002",
+      "weeklyHours": 20,
+      "timeZone": "Employee timeZone configuration (2)",
+      "avatarColor": "Employee avatarColor configuration (2)",
+      "notes": "Employee notes configuration (2)",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0003-0000-000000000003",
+      "employeeNumber": "HE-2026-0003",
+      "firstName": "Employee #3 — Enterprise Compliance Record",
+      "lastName": "Employee #3 — Enterprise Compliance Record",
+      "preferredName": "Employee #3 — Enterprise Compliance Record",
+      "email": "ops-team-3@rapider-enterprise.io",
+      "personalEmail": "ops-team-3@rapider-enterprise.io",
+      "phone": "+1-555-019-2803",
+      "jobTitle": "Employee #3 — Enterprise Compliance Record",
+      "status": "COMPLETED",
+      "workerType": "Employee workerType configuration (3)",
+      "employmentType": "Employee employmentType configuration (3)",
+      "hireDate": "2026-11-03T10:00:00Z",
+      "startDate": "2026-11-03T10:00:00Z",
+      "endDate": "2026-11-03T10:00:00Z",
+      "departmentId": "00000000-0143-0001-0000-000000000003",
+      "managerId": "00000000-0143-0001-0000-000000000003",
+      "positionId": "00000000-0143-0001-0000-000000000003",
+      "jobProfileId": "00000000-0143-0001-0000-000000000003",
+      "locationId": "00000000-0143-0001-0000-000000000003",
+      "legalEntityId": "00000000-0143-0001-0000-000000000003",
+      "weeklyHours": 30,
+      "timeZone": "Employee timeZone configuration (3)",
+      "avatarColor": "Employee avatarColor configuration (3)",
+      "notes": "Employee notes configuration (3)",
+      "isDeleted": false
+    }
+  ],
+  "MfgProductRevision": [
+    {
+      "id": "00000000-0143-0004-0000-000000000001",
+      "productId": "00000000-0143-0001-0000-000000000001",
+      "revisionCode": "MPR-2026-0001",
+      "lifecycleStage": "Product Revision lifecycleStage configuration (1)",
+      "releasedAt": "2026-11-01T10:00:00Z",
+      "supersedesRevisionId": "00000000-0143-0001-0000-000000000001",
+      "createdAt": "2026-11-01T10:00:00Z",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "isDeleted": false,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "00000000-0143-0004-0000-000000000002",
+      "productId": "00000000-0143-0001-0000-000000000002",
+      "revisionCode": "MPR-2026-0002",
+      "lifecycleStage": "Product Revision lifecycleStage configuration (2)",
+      "releasedAt": "2026-11-02T10:00:00Z",
+      "supersedesRevisionId": "00000000-0143-0001-0000-000000000002",
+      "createdAt": "2026-11-02T10:00:00Z",
+      "updatedAt": "2026-11-02T10:00:00Z",
+      "isDeleted": false,
+      "status": "IN_PROGRESS"
+    },
+    {
+      "id": "00000000-0143-0004-0000-000000000003",
+      "productId": "00000000-0143-0001-0000-000000000003",
+      "revisionCode": "MPR-2026-0003",
+      "lifecycleStage": "Product Revision lifecycleStage configuration (3)",
+      "releasedAt": "2026-11-03T10:00:00Z",
+      "supersedesRevisionId": "00000000-0143-0001-0000-000000000003",
+      "createdAt": "2026-11-03T10:00:00Z",
+      "updatedAt": "2026-11-03T10:00:00Z",
+      "isDeleted": false,
+      "status": "COMPLETED"
+    }
+  ],
+  "OpsMaintenanceWorkOrder": [
+    {
+      "id": "00000000-0143-0005-0000-000000000001",
+      "workOrderNumber": "OMWO-2026-0001",
+      "assetId": "00000000-0143-0001-0000-000000000001",
+      "type": "Maintenance Work Order type configuration (1)",
+      "priority": "Maintenance Work Order priority configuration (1)",
+      "status": "ACTIVE",
+      "assignedTechnicianId": "00000000-0143-0001-0000-000000000001",
+      "scheduledDate": "2026-11-01T10:00:00Z",
+      "maintenancePlanId": "00000000-0143-0001-0000-000000000001",
+      "facilityLocationId": "00000000-0143-0001-0000-000000000001",
+      "productionOrderId": "00000000-0143-0001-0000-000000000001",
+      "downtimeId": "00000000-0143-0001-0000-000000000001",
+      "safetyLockoutVerified": true,
+      "actualLaborHours": 10,
+      "actualPartsCost": 1250,
+      "orderNumber": "OMWO-2026-0001",
+      "state": "Maintenance Work Order state configuration (1)",
+      "scheduledStart": "2026-11-01T10:00:00Z",
+      "completedAt": "2026-11-01T10:00:00Z",
+      "createdAt": "2026-11-01T10:00:00Z",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0005-0000-000000000002",
+      "workOrderNumber": "OMWO-2026-0002",
+      "assetId": "00000000-0143-0001-0000-000000000002",
+      "type": "Maintenance Work Order type configuration (2)",
+      "priority": "Maintenance Work Order priority configuration (2)",
+      "status": "IN_PROGRESS",
+      "assignedTechnicianId": "00000000-0143-0001-0000-000000000002",
+      "scheduledDate": "2026-11-02T10:00:00Z",
+      "maintenancePlanId": "00000000-0143-0001-0000-000000000002",
+      "facilityLocationId": "00000000-0143-0001-0000-000000000002",
+      "productionOrderId": "00000000-0143-0001-0000-000000000002",
+      "downtimeId": "00000000-0143-0001-0000-000000000002",
+      "safetyLockoutVerified": true,
+      "actualLaborHours": 20,
+      "actualPartsCost": 2500,
+      "orderNumber": "OMWO-2026-0002",
+      "state": "Maintenance Work Order state configuration (2)",
+      "scheduledStart": "2026-11-02T10:00:00Z",
+      "completedAt": "2026-11-02T10:00:00Z",
+      "createdAt": "2026-11-02T10:00:00Z",
+      "updatedAt": "2026-11-02T10:00:00Z",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0005-0000-000000000003",
+      "workOrderNumber": "OMWO-2026-0003",
+      "assetId": "00000000-0143-0001-0000-000000000003",
+      "type": "Maintenance Work Order type configuration (3)",
+      "priority": "Maintenance Work Order priority configuration (3)",
+      "status": "COMPLETED",
+      "assignedTechnicianId": "00000000-0143-0001-0000-000000000003",
+      "scheduledDate": "2026-11-03T10:00:00Z",
+      "maintenancePlanId": "00000000-0143-0001-0000-000000000003",
+      "facilityLocationId": "00000000-0143-0001-0000-000000000003",
+      "productionOrderId": "00000000-0143-0001-0000-000000000003",
+      "downtimeId": "00000000-0143-0001-0000-000000000003",
+      "safetyLockoutVerified": false,
+      "actualLaborHours": 30,
+      "actualPartsCost": 3750,
+      "orderNumber": "OMWO-2026-0003",
+      "state": "Maintenance Work Order state configuration (3)",
+      "scheduledStart": "2026-11-03T10:00:00Z",
+      "completedAt": "2026-11-03T10:00:00Z",
+      "createdAt": "2026-11-03T10:00:00Z",
+      "updatedAt": "2026-11-03T10:00:00Z",
+      "isDeleted": false
+    }
+  ],
+  "OpsOperationsAsset": [
+    {
+      "id": "00000000-0143-0006-0000-000000000001",
+      "assetTag": "Operations Asset assetTag configuration (1)",
+      "name": "Operations Asset #1 — Enterprise Primary Record",
+      "serialNumber": "OOA-2026-0001",
+      "assetClass": "Operations Asset assetClass configuration (1)",
+      "facilityId": "00000000-0143-0001-0000-000000000001",
+      "condition": "Operations Asset condition configuration (1)",
+      "status": "ACTIVE",
+      "warrantyExpiry": "2026-11-01T10:00:00Z",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0006-0000-000000000002",
+      "assetTag": "Operations Asset assetTag configuration (2)",
+      "name": "Operations Asset #2 — Enterprise Operations Record",
+      "serialNumber": "OOA-2026-0002",
+      "assetClass": "Operations Asset assetClass configuration (2)",
+      "facilityId": "00000000-0143-0001-0000-000000000002",
+      "condition": "Operations Asset condition configuration (2)",
+      "status": "IN_PROGRESS",
+      "warrantyExpiry": "2026-11-02T10:00:00Z",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0006-0000-000000000003",
+      "assetTag": "Operations Asset assetTag configuration (3)",
+      "name": "Operations Asset #3 — Enterprise Compliance Record",
+      "serialNumber": "OOA-2026-0003",
+      "assetClass": "Operations Asset assetClass configuration (3)",
+      "facilityId": "00000000-0143-0001-0000-000000000003",
+      "condition": "Operations Asset condition configuration (3)",
+      "status": "COMPLETED",
+      "warrantyExpiry": "2026-11-03T10:00:00Z",
+      "isDeleted": false
+    }
+  ],
+  "ReaConstructionJob": [
+    {
+      "id": "00000000-0143-0007-0000-000000000001",
+      "jobNumber": "RCJ-2026-0001",
+      "name": "Construction Job #1 — Enterprise Primary Record",
+      "deliveryMethod": "Construction Job deliveryMethod configuration (1)",
+      "contractValue": 1250,
+      "defaultRetainagePct": 85,
+      "ntpDate": "2026-11-01T10:00:00Z",
+      "substantialCompletionDate": "2026-11-01T10:00:00Z",
+      "siteAddress": {
+        "configured": true,
+        "tier": 1
+      },
+      "status": "ACTIVE",
+      "version": 1,
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0007-0000-000000000002",
+      "jobNumber": "RCJ-2026-0002",
+      "name": "Construction Job #2 — Enterprise Operations Record",
+      "deliveryMethod": "Construction Job deliveryMethod configuration (2)",
+      "contractValue": 2500,
+      "defaultRetainagePct": 90,
+      "ntpDate": "2026-11-02T10:00:00Z",
+      "substantialCompletionDate": "2026-11-02T10:00:00Z",
+      "siteAddress": {
+        "configured": true,
+        "tier": 2
+      },
+      "status": "IN_PROGRESS",
+      "version": 2,
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0007-0000-000000000003",
+      "jobNumber": "RCJ-2026-0003",
+      "name": "Construction Job #3 — Enterprise Compliance Record",
+      "deliveryMethod": "Construction Job deliveryMethod configuration (3)",
+      "contractValue": 3750,
+      "defaultRetainagePct": 95,
+      "ntpDate": "2026-11-03T10:00:00Z",
+      "substantialCompletionDate": "2026-11-03T10:00:00Z",
+      "siteAddress": {
+        "configured": true,
+        "tier": 3
+      },
+      "status": "COMPLETED",
+      "version": 3,
+      "isDeleted": false
+    }
+  ],
+  "ReaConstructionRfi": [
+    {
+      "id": "00000000-0143-0008-0000-000000000001",
+      "rfiNumber": "RCR-2026-0001",
+      "subject": "Construction Rfi #1 — Enterprise Primary Record",
+      "question": "Construction Rfi question configuration (1)",
+      "specSection": "Construction Rfi specSection configuration (1)",
+      "officialResponse": "Construction Rfi officialResponse configuration (1)",
+      "costImpactFlag": "Construction Rfi costImpactFlag configuration (1)",
+      "scheduleImpactDays": 10,
+      "dueDate": "2026-11-01T10:00:00Z",
+      "status": "ACTIVE",
+      "version": 1,
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0008-0000-000000000002",
+      "rfiNumber": "RCR-2026-0002",
+      "subject": "Construction Rfi #2 — Enterprise Operations Record",
+      "question": "Construction Rfi question configuration (2)",
+      "specSection": "Construction Rfi specSection configuration (2)",
+      "officialResponse": "Construction Rfi officialResponse configuration (2)",
+      "costImpactFlag": "Construction Rfi costImpactFlag configuration (2)",
+      "scheduleImpactDays": 20,
+      "dueDate": "2026-11-02T10:00:00Z",
+      "status": "IN_PROGRESS",
+      "version": 2,
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0008-0000-000000000003",
+      "rfiNumber": "RCR-2026-0003",
+      "subject": "Construction Rfi #3 — Enterprise Compliance Record",
+      "question": "Construction Rfi question configuration (3)",
+      "specSection": "Construction Rfi specSection configuration (3)",
+      "officialResponse": "Construction Rfi officialResponse configuration (3)",
+      "costImpactFlag": "Construction Rfi costImpactFlag configuration (3)",
+      "scheduleImpactDays": 30,
+      "dueDate": "2026-11-03T10:00:00Z",
+      "status": "COMPLETED",
+      "version": 3,
+      "isDeleted": false
+    }
+  ],
+  "ReaProperty": [
+    {
+      "id": "00000000-0143-0009-0000-000000000001",
+      "code": "RP-2026-0001",
+      "name": "Property #1 — Enterprise Primary Record",
+      "assetClass": "Property assetClass configuration (1)",
+      "address": {
+        "configured": true,
+        "tier": 1
+      },
+      "totalUnits": 10,
+      "grossAreaSqFt": 10,
+      "managementFeePct": 85,
+      "reserveHoldbackAmount": 1250,
+      "currency": "USD",
+      "status": "ACTIVE",
+      "version": 1,
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0009-0000-000000000002",
+      "code": "RP-2026-0002",
+      "name": "Property #2 — Enterprise Operations Record",
+      "assetClass": "Property assetClass configuration (2)",
+      "address": {
+        "configured": true,
+        "tier": 2
+      },
+      "totalUnits": 20,
+      "grossAreaSqFt": 20,
+      "managementFeePct": 90,
+      "reserveHoldbackAmount": 2500,
+      "currency": "USD",
+      "status": "IN_PROGRESS",
+      "version": 2,
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0009-0000-000000000003",
+      "code": "RP-2026-0003",
+      "name": "Property #3 — Enterprise Compliance Record",
+      "assetClass": "Property assetClass configuration (3)",
+      "address": {
+        "configured": true,
+        "tier": 3
+      },
+      "totalUnits": 30,
+      "grossAreaSqFt": 30,
+      "managementFeePct": 95,
+      "reserveHoldbackAmount": 3750,
+      "currency": "USD",
+      "status": "COMPLETED",
+      "version": 3,
+      "isDeleted": false
+    }
+  ],
+  "ReaPunchListItem": [
+    {
+      "id": "00000000-0143-0010-0000-000000000001",
+      "weatherSummary": {
+        "configured": true,
+        "tier": 1
+      },
+      "manpowerEntries": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "delayHours": 10,
+      "notes": "Punch List Item notes configuration (1)",
+      "lockedAt": "2026-11-01T10:00:00Z",
+      "locationRoom": "Punch List Item locationRoom configuration (1)",
+      "trade": "Punch List Item trade configuration (1)",
+      "priority": "Punch List Item priority configuration (1)",
+      "dueDate": "2026-11-01T10:00:00Z",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0010-0000-000000000002",
+      "weatherSummary": {
+        "configured": true,
+        "tier": 2
+      },
+      "manpowerEntries": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "delayHours": 20,
+      "notes": "Punch List Item notes configuration (2)",
+      "lockedAt": "2026-11-02T10:00:00Z",
+      "locationRoom": "Punch List Item locationRoom configuration (2)",
+      "trade": "Punch List Item trade configuration (2)",
+      "priority": "Punch List Item priority configuration (2)",
+      "dueDate": "2026-11-02T10:00:00Z",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0010-0000-000000000003",
+      "weatherSummary": {
+        "configured": true,
+        "tier": 3
+      },
+      "manpowerEntries": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "delayHours": 30,
+      "notes": "Punch List Item notes configuration (3)",
+      "lockedAt": "2026-11-03T10:00:00Z",
+      "locationRoom": "Punch List Item locationRoom configuration (3)",
+      "trade": "Punch List Item trade configuration (3)",
+      "priority": "Punch List Item priority configuration (3)",
+      "dueDate": "2026-11-03T10:00:00Z",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "ReaSubmittalItem": [
+    {
+      "id": "00000000-0143-0011-0000-000000000001",
+      "submittalNumber": "RSI-2026-0001",
+      "revision": 10,
+      "title": "Submittal Item #1 — Enterprise Primary Record",
+      "submittalType": "Submittal Item submittalType configuration (1)",
+      "leadTimeDays": 10,
+      "requiredOnSiteDate": "2026-11-01T10:00:00Z",
+      "mustApproveByDate": "2026-11-01T10:00:00Z",
+      "reviewStamp": "Submittal Item reviewStamp configuration (1)",
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0011-0000-000000000002",
+      "submittalNumber": "RSI-2026-0002",
+      "revision": 20,
+      "title": "Submittal Item #2 — Enterprise Operations Record",
+      "submittalType": "Submittal Item submittalType configuration (2)",
+      "leadTimeDays": 20,
+      "requiredOnSiteDate": "2026-11-02T10:00:00Z",
+      "mustApproveByDate": "2026-11-02T10:00:00Z",
+      "reviewStamp": "Submittal Item reviewStamp configuration (2)",
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0011-0000-000000000003",
+      "submittalNumber": "RSI-2026-0003",
+      "revision": 30,
+      "title": "Submittal Item #3 — Enterprise Compliance Record",
+      "submittalType": "Submittal Item submittalType configuration (3)",
+      "leadTimeDays": 30,
+      "requiredOnSiteDate": "2026-11-03T10:00:00Z",
+      "mustApproveByDate": "2026-11-03T10:00:00Z",
+      "reviewStamp": "Submittal Item reviewStamp configuration (3)",
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "ReaUnit": [
+    {
+      "id": "00000000-0143-0012-0000-000000000001",
+      "unitNumber": "RU-2026-0001",
+      "buildingName": "Unit #1 — Enterprise Primary Record",
+      "floor": "Unit floor configuration (1)",
+      "bedrooms": 10,
+      "bathrooms": 10,
+      "rentableAreaSqFt": 10,
+      "marketRent": 10,
+      "occupancyStatus": "Unit occupancyStatus configuration (1)",
+      "amenities": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0012-0000-000000000002",
+      "unitNumber": "RU-2026-0002",
+      "buildingName": "Unit #2 — Enterprise Operations Record",
+      "floor": "Unit floor configuration (2)",
+      "bedrooms": 20,
+      "bathrooms": 20,
+      "rentableAreaSqFt": 20,
+      "marketRent": 20,
+      "occupancyStatus": "Unit occupancyStatus configuration (2)",
+      "amenities": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0012-0000-000000000003",
+      "unitNumber": "RU-2026-0003",
+      "buildingName": "Unit #3 — Enterprise Compliance Record",
+      "floor": "Unit floor configuration (3)",
+      "bedrooms": 30,
+      "bathrooms": 30,
+      "rentableAreaSqFt": 30,
+      "marketRent": 30,
+      "occupancyStatus": "Unit occupancyStatus configuration (3)",
+      "amenities": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "ReaCdeContainer": [
+    {
+      "id": "00000000-0143-0013-0000-000000000001",
+      "code": "RCC-2026-0001",
+      "name": "Cde Container #1 — Enterprise Primary Record",
+      "isoNamingPattern": "Cde Container isoNamingPattern configuration (1)",
+      "defaultSuitability": "Cde Container defaultSuitability configuration (1)",
+      "lodStandard": "Cde Container lodStandard configuration (1)",
+      "status": "ACTIVE",
+      "version": 1,
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0013-0000-000000000002",
+      "code": "RCC-2026-0002",
+      "name": "Cde Container #2 — Enterprise Operations Record",
+      "isoNamingPattern": "Cde Container isoNamingPattern configuration (2)",
+      "defaultSuitability": "Cde Container defaultSuitability configuration (2)",
+      "lodStandard": "Cde Container lodStandard configuration (2)",
+      "status": "IN_PROGRESS",
+      "version": 2,
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0013-0000-000000000003",
+      "code": "RCC-2026-0003",
+      "name": "Cde Container #3 — Enterprise Compliance Record",
+      "isoNamingPattern": "Cde Container isoNamingPattern configuration (3)",
+      "defaultSuitability": "Cde Container defaultSuitability configuration (3)",
+      "lodStandard": "Cde Container lodStandard configuration (3)",
+      "status": "COMPLETED",
+      "version": 3,
+      "isDeleted": false
+    }
+  ],
+  "ReaBimModel": [
+    {
+      "id": "00000000-0143-0014-0000-000000000001",
+      "modelCode": "RBM-2026-0001",
+      "fileName": "Bim Model #1 — Enterprise Primary Record",
+      "discipline": "Bim Model discipline configuration (1)",
+      "format": "2026-11-01T10:00:00Z",
+      "revisionNumber": 10,
+      "cdeState": "Bim Model cdeState configuration (1)",
+      "suitabilityCode": "RBM-2026-0001",
+      "elementCount": 10,
+      "diffSummary": {
+        "configured": true,
+        "tier": 1
+      },
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0014-0000-000000000002",
+      "modelCode": "RBM-2026-0002",
+      "fileName": "Bim Model #2 — Enterprise Operations Record",
+      "discipline": "Bim Model discipline configuration (2)",
+      "format": "2026-11-02T10:00:00Z",
+      "revisionNumber": 20,
+      "cdeState": "Bim Model cdeState configuration (2)",
+      "suitabilityCode": "RBM-2026-0002",
+      "elementCount": 20,
+      "diffSummary": {
+        "configured": true,
+        "tier": 2
+      },
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0014-0000-000000000003",
+      "modelCode": "RBM-2026-0003",
+      "fileName": "Bim Model #3 — Enterprise Compliance Record",
+      "discipline": "Bim Model discipline configuration (3)",
+      "format": "2026-11-03T10:00:00Z",
+      "revisionNumber": 30,
+      "cdeState": "Bim Model cdeState configuration (3)",
+      "suitabilityCode": "RBM-2026-0003",
+      "elementCount": 30,
+      "diffSummary": {
+        "configured": true,
+        "tier": 3
+      },
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "ReaDrawingSheet": [
+    {
+      "id": "00000000-0143-0015-0000-000000000001",
+      "sheetNumber": "RDS-2026-0001",
+      "sheetTitle": "Drawing Sheet #1 — Enterprise Primary Record",
+      "discipline": "Drawing Sheet discipline configuration (1)",
+      "levelCode": "RDS-2026-0001",
+      "revisionCode": "RDS-2026-0001",
+      "revisionNumber": 10,
+      "issueDate": "2026-11-01T10:00:00Z",
+      "cdeState": "Drawing Sheet cdeState configuration (1)",
+      "anchorCalibration2d3d": {
+        "configured": true,
+        "tier": 1
+      },
+      "markups": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0015-0000-000000000002",
+      "sheetNumber": "RDS-2026-0002",
+      "sheetTitle": "Drawing Sheet #2 — Enterprise Operations Record",
+      "discipline": "Drawing Sheet discipline configuration (2)",
+      "levelCode": "RDS-2026-0002",
+      "revisionCode": "RDS-2026-0002",
+      "revisionNumber": 20,
+      "issueDate": "2026-11-02T10:00:00Z",
+      "cdeState": "Drawing Sheet cdeState configuration (2)",
+      "anchorCalibration2d3d": {
+        "configured": true,
+        "tier": 2
+      },
+      "markups": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0015-0000-000000000003",
+      "sheetNumber": "RDS-2026-0003",
+      "sheetTitle": "Drawing Sheet #3 — Enterprise Compliance Record",
+      "discipline": "Drawing Sheet discipline configuration (3)",
+      "levelCode": "RDS-2026-0003",
+      "revisionCode": "RDS-2026-0003",
+      "revisionNumber": 30,
+      "issueDate": "2026-11-03T10:00:00Z",
+      "cdeState": "Drawing Sheet cdeState configuration (3)",
+      "anchorCalibration2d3d": {
+        "configured": true,
+        "tier": 3
+      },
+      "markups": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "ReaFederatedModelView": [
+    {
+      "id": "00000000-0143-0016-0000-000000000001",
+      "name": "Federated Model View #1 — Enterprise Primary Record",
+      "zoneOrLevelFilter": "Federated Model View zoneOrLevelFilter configuration (1)",
+      "includedModelIds": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "savedViewpoints": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "isDefaultCoordinationSet": true,
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0016-0000-000000000002",
+      "name": "Federated Model View #2 — Enterprise Operations Record",
+      "zoneOrLevelFilter": "Federated Model View zoneOrLevelFilter configuration (2)",
+      "includedModelIds": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "savedViewpoints": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "isDefaultCoordinationSet": true,
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0016-0000-000000000003",
+      "name": "Federated Model View #3 — Enterprise Compliance Record",
+      "zoneOrLevelFilter": "Federated Model View zoneOrLevelFilter configuration (3)",
+      "includedModelIds": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "savedViewpoints": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "isDefaultCoordinationSet": false,
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "ReaDesignPackageTransmittal": [
+    {
+      "id": "00000000-0143-0017-0000-000000000001",
+      "transmittalNumber": "RDPT-2026-0001",
+      "packageTitle": "Design Package Transmittal #1 — Enterprise Primary Record",
+      "purpose": "Design Package Transmittal purpose configuration (1)",
+      "suitabilityCode": "RDPT-2026-0001",
+      "modelIds": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "sheetIds": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "recipientAcks": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "issuedAt": "2026-11-01T10:00:00Z",
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0017-0000-000000000002",
+      "transmittalNumber": "RDPT-2026-0002",
+      "packageTitle": "Design Package Transmittal #2 — Enterprise Operations Record",
+      "purpose": "Design Package Transmittal purpose configuration (2)",
+      "suitabilityCode": "RDPT-2026-0002",
+      "modelIds": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "sheetIds": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "recipientAcks": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "issuedAt": "2026-11-02T10:00:00Z",
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0017-0000-000000000003",
+      "transmittalNumber": "RDPT-2026-0003",
+      "packageTitle": "Design Package Transmittal #3 — Enterprise Compliance Record",
+      "purpose": "Design Package Transmittal purpose configuration (3)",
+      "suitabilityCode": "RDPT-2026-0003",
+      "modelIds": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "sheetIds": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "recipientAcks": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "issuedAt": "2026-11-03T10:00:00Z",
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "ReaClashTestRun": [
+    {
+      "id": "00000000-0143-0018-0000-000000000001",
+      "testCode": "RCTR-2026-0001",
+      "name": "Clash Test Run #1 — Enterprise Primary Record",
+      "leftDisciplineOrSet": "Clash Test Run leftDisciplineOrSet configuration (1)",
+      "rightDisciplineOrSet": "Clash Test Run rightDisciplineOrSet configuration (1)",
+      "clashType": "Clash Test Run clashType configuration (1)",
+      "toleranceMm": 10,
+      "rawClashCount": 10,
+      "groupedIssueCount": 10,
+      "resolvedCount": 10,
+      "executedAt": "2026-11-01T10:00:00Z",
+      "status": "ACTIVE",
+      "version": 1,
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0018-0000-000000000002",
+      "testCode": "RCTR-2026-0002",
+      "name": "Clash Test Run #2 — Enterprise Operations Record",
+      "leftDisciplineOrSet": "Clash Test Run leftDisciplineOrSet configuration (2)",
+      "rightDisciplineOrSet": "Clash Test Run rightDisciplineOrSet configuration (2)",
+      "clashType": "Clash Test Run clashType configuration (2)",
+      "toleranceMm": 20,
+      "rawClashCount": 20,
+      "groupedIssueCount": 20,
+      "resolvedCount": 20,
+      "executedAt": "2026-11-02T10:00:00Z",
+      "status": "IN_PROGRESS",
+      "version": 2,
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0018-0000-000000000003",
+      "testCode": "RCTR-2026-0003",
+      "name": "Clash Test Run #3 — Enterprise Compliance Record",
+      "leftDisciplineOrSet": "Clash Test Run leftDisciplineOrSet configuration (3)",
+      "rightDisciplineOrSet": "Clash Test Run rightDisciplineOrSet configuration (3)",
+      "clashType": "Clash Test Run clashType configuration (3)",
+      "toleranceMm": 30,
+      "rawClashCount": 30,
+      "groupedIssueCount": 30,
+      "resolvedCount": 30,
+      "executedAt": "2026-11-03T10:00:00Z",
+      "status": "COMPLETED",
+      "version": 3,
+      "isDeleted": false
+    }
+  ],
+  "ReaBimCoordinationIssue": [
+    {
+      "id": "00000000-0143-0019-0000-000000000001",
+      "issueNumber": "RBCI-2026-0001",
+      "bcfTopicGuid": "00000000-0143-0001-0000-000000000001",
+      "title": "Bim Coordination Issue #1 — Enterprise Primary Record",
+      "issueType": "Bim Coordination Issue issueType configuration (1)",
+      "priority": "Bim Coordination Issue priority configuration (1)",
+      "clashingIfcGuids": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "bcfViewpoint": {
+        "configured": true,
+        "tier": 1
+      },
+      "dueDate": "2026-11-01T10:00:00Z",
+      "ignoredJustification": "Bim Coordination Issue ignoredJustification configuration (1)",
+      "status": "ACTIVE",
+      "version": 1,
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0019-0000-000000000002",
+      "issueNumber": "RBCI-2026-0002",
+      "bcfTopicGuid": "00000000-0143-0001-0000-000000000002",
+      "title": "Bim Coordination Issue #2 — Enterprise Operations Record",
+      "issueType": "Bim Coordination Issue issueType configuration (2)",
+      "priority": "Bim Coordination Issue priority configuration (2)",
+      "clashingIfcGuids": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "bcfViewpoint": {
+        "configured": true,
+        "tier": 2
+      },
+      "dueDate": "2026-11-02T10:00:00Z",
+      "ignoredJustification": "Bim Coordination Issue ignoredJustification configuration (2)",
+      "status": "IN_PROGRESS",
+      "version": 2,
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0019-0000-000000000003",
+      "issueNumber": "RBCI-2026-0003",
+      "bcfTopicGuid": "00000000-0143-0001-0000-000000000003",
+      "title": "Bim Coordination Issue #3 — Enterprise Compliance Record",
+      "issueType": "Bim Coordination Issue issueType configuration (3)",
+      "priority": "Bim Coordination Issue priority configuration (3)",
+      "clashingIfcGuids": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "bcfViewpoint": {
+        "configured": true,
+        "tier": 3
+      },
+      "dueDate": "2026-11-03T10:00:00Z",
+      "ignoredJustification": "Bim Coordination Issue ignoredJustification configuration (3)",
+      "status": "COMPLETED",
+      "version": 3,
+      "isDeleted": false
+    }
+  ],
+  "ReaModelWatchGroup": [
+    {
+      "id": "00000000-0143-0020-0000-000000000001",
+      "name": "Model Watch Group #1 — Enterprise Primary Record",
+      "watchedDiscipline": "Model Watch Group watchedDiscipline configuration (1)",
+      "ifcEntityTypes": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "watchedGuids": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "subscriberRefs": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "lastTriggeredRevision": 10,
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0020-0000-000000000002",
+      "name": "Model Watch Group #2 — Enterprise Operations Record",
+      "watchedDiscipline": "Model Watch Group watchedDiscipline configuration (2)",
+      "ifcEntityTypes": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "watchedGuids": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "subscriberRefs": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "lastTriggeredRevision": 20,
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0020-0000-000000000003",
+      "name": "Model Watch Group #3 — Enterprise Compliance Record",
+      "watchedDiscipline": "Model Watch Group watchedDiscipline configuration (3)",
+      "ifcEntityTypes": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "watchedGuids": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "subscriberRefs": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "lastTriggeredRevision": 30,
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "ReaCobieHandoverBatch": [
+    {
+      "id": "00000000-0143-0021-0000-000000000001",
+      "batchCode": "RCHB-2026-0001",
+      "completenessPct": 85,
+      "facilitySpacesCount": 10,
+      "maintainableAssetsCount": 10,
+      "missingAttributeWarnings": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "status": "ACTIVE",
+      "commissionedAt": "2026-11-01T10:00:00Z",
+      "version": 1,
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0021-0000-000000000002",
+      "batchCode": "RCHB-2026-0002",
+      "completenessPct": 90,
+      "facilitySpacesCount": 20,
+      "maintainableAssetsCount": 20,
+      "missingAttributeWarnings": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "status": "IN_PROGRESS",
+      "commissionedAt": "2026-11-02T10:00:00Z",
+      "version": 2,
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0143-0021-0000-000000000003",
+      "batchCode": "RCHB-2026-0003",
+      "completenessPct": 95,
+      "facilitySpacesCount": 30,
+      "maintainableAssetsCount": 30,
+      "missingAttributeWarnings": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "status": "COMPLETED",
+      "commissionedAt": "2026-11-03T10:00:00Z",
+      "version": 3,
+      "isDeleted": false
+    }
+  ]
+}

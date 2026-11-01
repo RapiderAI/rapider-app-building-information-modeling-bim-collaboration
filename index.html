@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rapider Building Information Modeling  Collaboration</title>
+  <script src="https://kit.fontawesome.com/5b23df26dc.js" crossorigin="anonymous" defer></script>
+  <script src="/assets/js/rapider-components.js" defer></script>
+  <link rel="stylesheet" href="/assets/themes/rapider-tailwind-theme.css">
+  <link rel="stylesheet" href="/assets/themes/crm-expenses-design.css">
+  <style>
+    body, html { margin: 0; padding: 0; height: 100%; width: 100%; overflow: hidden; }
+    iframe#appFrame { width: 100%; height: 100%; border: none; }
+  </style>
+</head>
+<body>
+  <iframe id="appFrame" src="pages/cde-overview/cde-overview.html"></iframe>
+  <script>
+    const routes = {
+  "cde-overview": "pages/cde-overview/cde-overview.html",
+  "bim-models": "pages/bim-models/bim-models.html",
+  "drawing-sheets": "pages/drawing-sheets/drawing-sheets.html",
+  "federated-viewer": "pages/federated-viewer/federated-viewer.html",
+  "clash-matrix": "pages/clash-matrix/clash-matrix.html",
+  "coordination-issues": "pages/coordination-issues/coordination-issues.html",
+  "design-transmittals": "pages/design-transmittals/design-transmittals.html",
+  "bep-lod-standards": "pages/bep-lod-standards/bep-lod-standards.html",
+  "cobie-qto-handover": "pages/cobie-qto-handover/cobie-qto-handover.html",
+  "sheet-model-detail": "pages/sheet-model-detail/sheet-model-detail.html",
+  "clash-issue-detail": "pages/clash-issue-detail/clash-issue-detail.html",
+  "upload-transmittal-drawer": "pages/upload-transmittal-drawer/upload-transmittal-drawer.html"
+};
+    function handleHash() {
+      const hash = window.location.hash.replace(/^#\/?/, '').split('?')[0];
+      const route = hash || 'cde-overview';
+      const target = routes[route] || routes['cde-overview'];
+      const iframe = document.getElementById('appFrame');
+      if (iframe) iframe.src = target;
+    }
+    window.addEventListener('hashchange', handleHash);
+    window.addEventListener('load', handleHash);
+  </script>
+</body>
+</html>
